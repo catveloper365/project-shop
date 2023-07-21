@@ -3,7 +3,7 @@ name: Feature request
 about: 기능 구현 issue 템플릿
 title: "[feature]"
 labels: feature
-assignees: ''
+assignees: catveloper365
 
 ---
 
