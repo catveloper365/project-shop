@@ -1,4 +1,5 @@
 # 쇼핑몰 프로젝트
+[![Java CI with Gradle](https://github.com/catveloper365/project-shop/actions/workflows/ci_gradle_build.yml/badge.svg?branch=main)](https://github.com/catveloper365/project-shop/actions/workflows/ci_gradle_build.yml)
 
 ## 브랜치 전략
 GitHub Flow 사용<br>
