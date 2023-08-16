@@ -18,7 +18,7 @@ import java.util.List;
 @Table(name = "users")
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
-public class User implements UserDetails{
+public class User extends BaseEntity implements UserDetails{
     /*
     UserDetails는 스프링 시큐리티에서 사용자 인증 정보를 담아두는 인터페이스
     UserDetails를 상속받아 인증 객체로 사용
