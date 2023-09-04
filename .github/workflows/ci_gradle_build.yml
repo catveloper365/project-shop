@@ -29,10 +29,9 @@ jobs:
       uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
     - run: gradle init
 
-    # Gradle 권한 부여
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
-      
-    # Clean Build 실행
+    # gradle-build-action를 사용하여 Gradle 빌드
     - name: Build with Gradle
-      run: ./gradlew clean build
+      uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
+      with:
+        gradle-version: 8.1.1
+        arguments: build    
